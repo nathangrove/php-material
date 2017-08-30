@@ -44,7 +44,8 @@
   ###############################
   include "$app_dir/lib/vendor/autoload.php";
   use nathangrove\DBObject\db;
-  use nathangrove\DBObject\dbo;
+  use nathangrove\DBObject\dbo as basedbo;
+  class dbo extends basedbo {};
   try {
     $db = new db($db_host, $db_login, $db_password, $db_name);
   } catch (Exception $e) {

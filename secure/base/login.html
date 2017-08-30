@@ -28,70 +28,6 @@
 <body>
 
   <div class="wrapper">
-
-      <!--
-      <div class="sidebar" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
-
-      <div class="logo">
-        <a href="http://www.creative-tim.com" class="simple-text">
-          Creative Tim
-        </a>
-      </div>
-
-        <div class="sidebar-wrapper">
-              <ul class="nav">
-                  <li class="active">
-                      <a href="dashboard.html">
-                          <i class="material-icons">dashboard</i>
-                          <p>Dashboard</p>
-                      </a>
-                  </li>
-                  <li>
-                      <a href="user.html">
-                          <i class="material-icons">person</i>
-                          <p>User Profile</p>
-                      </a>
-                  </li>
-                  <li>
-                      <a href="table.html">
-                          <i class="material-icons">content_paste</i>
-                          <p>Table List</p>
-                      </a>
-                  </li>
-                  <li>
-                      <a href="typography.html">
-                          <i class="material-icons">library_books</i>
-                          <p>Typography</p>
-                      </a>
-                  </li>
-                  <li>
-                      <a href="icons.html">
-                          <i class="material-icons">bubble_chart</i>
-                          <p>Icons</p>
-                      </a>
-                  </li>
-                  <li>
-                      <a href="maps.html">
-                          <i class="material-icons">location_on</i>
-                          <p>Maps</p>
-                      </a>
-                  </li>
-                  <li>
-                      <a href="notifications.html">
-                          <i class="material-icons text-gray">notifications</i>
-                          <p>Notifications</p>
-                      </a>
-                  </li>
-                  <li class="active-pro">
-                      <a href="<?=$this->url('/logout')?>">
-                        <i class="material-icons">lock outline</i>
-                        <p>Logout</p>
-                      </a>
-                  </li>
-              </ul>
-        </div>
-      </div>
-    -->
     <div class="main-panel">
 
 
@@ -107,9 +43,9 @@
                 </div>
                 <div class="card-content">
                   <? if ($loginmsg){ ?> 
-                    <p class="category" style='color:red'><?=$loginmsg?></p>
+                    <p class="category text-danger"><?=$loginmsg?></p>
                   <? } ?>
-                  <form action="<?=$this->url('/login')?>" method="post">
+                  <form method="post">
                     <input type="hidden" name="_login" value="1" />
                     
                     <div class="row">
@@ -143,34 +79,8 @@
 
       <footer class="footer">
         <div class="container-fluid">
-          <!--
-            <nav class="pull-left">
-              <ul>
-                <li>
-                  <a href="#">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Company
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Portfolio
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                     Blog
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          -->
           <p class="copyright pull-right">
-            &copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
+            &copy; <script>document.write(new Date().getFullYear())</script> <a href="https://github.com/nathangrove/php-material.git">PHP-Material</a>, Material UI in a PHP Framework
           </p>
         </div>
       </footer>

@@ -1,6 +1,5 @@
 <?
 
-use nathangrove\DBObject\dbo;
 
 class wireapp_super {
 
@@ -67,6 +66,7 @@ class wireapp_super {
           $this->ss("login.name",$x->fname . " " . $x->lname);
           $this->_login($x->id);
           $this->redirect($this->s('login_redir'));
+          #$this->redirect('/index');
         } else {
           $loginmsg = "Invalid Login/Password.  Please Try Again."; 
         }
