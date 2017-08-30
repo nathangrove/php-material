@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5a7b5220a2dec8d7481d1804a1b5e811",
+    "packages": [
+        {
+            "name": "nathangrove/db-object",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nathangrove/dbobject.git",
+                "reference": "1d302c44c54a0329f888de48a600e08d58a185e6"
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "nathangrove\\DBObject\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Grove",
+                    "email": "nathan@nathangrove.com"
+                }
+            ],
+            "description": "A DAL for MySQL in PHP",
+            "keywords": [
+                "DAL",
+                "database",
+                "mysql"
+            ],
+            "time": "2017-08-30T15:21:49+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "nathangrove/db-object": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

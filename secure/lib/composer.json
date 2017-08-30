@@ -1,0 +1,20 @@
+{
+    "name": "nathangrove/phpmaterial",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nathan Grove",
+            "email": "nathan@nathangrove.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/nathangrove/dbobject.git"
+        }
+    ],
+    "require": {
+        "nathangrove/db-object": "dev-master"
+    }
+}
